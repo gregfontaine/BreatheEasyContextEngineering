@@ -59,7 +59,7 @@ AIは、与えられた情報の範囲でしか具体的に答えられません
 
 ### 使い方：コンテキストのレベルを変えて試す
 
-基本の流れはシンプルです。まず「試したい質問」を1つ決めます。次に、渡すコンテキストのレベルを変えながら同じ質問を投げ、返ってきた答えを並べて比べます。
+まず「試したい質問」を1つ決めます。次に、渡すコンテキストのレベルを変えながら同じ質問を投げ、返ってきた答えを並べて比べます。
 
 | レベル     | 渡すコンテキスト                             | 観察できること                                               |
 | ---------- | -------------------------------------------- | ------------------------------------------------------------ |
@@ -72,35 +72,13 @@ AIは、与えられた情報の範囲でしか具体的に答えられません
 
 発展として、「多ければよいわけではない」ことも試せます。質問に関係のない資料をあえて大量に混ぜてみて、焦点がぼやけないかを観察します。あるいは、生の資料をそのまま渡す場合と、要点を整理してから渡す場合を比べます。
 
-### 試してみるタスク例
-
-同じタスクでも、レベルを上げるほど答えが変わります。
-
-- 黒字化に向けて、次の四半期で優先すべき打ち手を提案してください
-- 解約を減らすために、次のスプリントで取り組むべきことは何ですか
-- プロダクトバックログの将来アイテムに優先順位をつけ、その理由を説明してください
-- 投資家向けの四半期アップデート（現状と今後の計画）を書いてください
-- CEOとして、全社会議で話す10分程度のスピーチ原稿を書いてください
-- 直近のスプリントのレトロスペクティブを読み、チームの進め方で気になる点があれば指摘してください
-
-（最後のタスクは特に示唆的です。スプリントレポートの議事録には、効果的な改善アクションと、一見それらしいが逆効果になりうるアクションが意図的に混ぜてあります。コンテキストと批判的な視点が揃ってはじめて、AIはその違いに踏み込めます。）
-
-### ワークショップでの進め方（一例）
-
-1. 参加者全員が、同じ質問をL0（コンテキストなし）で実行し、結果を共有する
-2. コンテキストを段階的に足していき（L1→L2→L3）、答えがどう変わるかを見る
-3. 「どの資料が、どの質問にいちばん効いたか」を話し合う
-4. 関係のない資料を混ぜたり、要約してから渡したりして、量だけでなく質と構造の影響を確かめる
-
-所要時間の目安は60〜90分です。参加者は使い慣れたAIツール（ChatGPT、Claude、Geminiなど）を各自で使ってかまいません。
-
 ### 注意事項
 
 ここに含まれる企業、人物、数値、発言はすべて架空です。実在の企業・個人とは関係ありません。学習・実験・研修の目的で自由にお使いください。
 
 ### ライセンス
 
-教材として配布・改変しやすいよう、コンテンツには寛容なライセンス（例：CC BY 4.0）を推奨します。リポジトリの所有者が最終的に選択してください。
+利用する際、私の会社「Agorax G.K（合同会社アゴラックス）」および／または私の氏名を明記していただけますようお願いいたします。
 
 ---
 
@@ -155,7 +133,7 @@ The documents fall into roughly four layers. This grouping is also useful when y
 
 ### How to use it: vary the level of context
 
-The basic loop is simple. Pick one question you want to test. Then ask that same question repeatedly while changing the level of context you provide, and line up the answers side by side.
+Pick one question you want to test. Then ask that same question repeatedly while changing the level of context you provide, and line up the answers side by side.
 
 | Level        | Context you provide                                       | What you can observe                                                                             |
 | ------------ | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -168,32 +146,10 @@ When you compare, a few lenses make the differences obvious. Does the answer cit
 
 As a further step, you can test the idea that more is not always better. Deliberately mix in documents that are irrelevant to the question and watch whether the focus blurs. Or compare handing over the raw documents as-is versus organizing the key points first.
 
-### Tasks to try
-
-The same task produces different answers as you raise the level.
-
-- Propose the moves we should prioritize next quarter to reach profitability
-- What should we work on in the next sprint to reduce cancellations?
-- Prioritize the future items in the product backlog and explain your reasoning
-- Write a quarterly update for investors (current status and the plan ahead)
-- As the CEO, write roughly a ten-minute speech for the all-hands meeting
-- Read the recent sprint retrospectives and flag anything about how the team works that concerns you
-
-(That last task is especially telling. The retrospective minutes in the sprint reports deliberately mix genuinely effective improvement actions with ones that sound reasonable but can backfire. Only with both the context and a critical eye can an AI engage with the difference.)
-
-### A sample workshop flow
-
-1. Everyone runs the same question at L0 (no context) and shares the results
-2. Add context in stages (L1 to L2 to L3) and watch how the answers shift
-3. Discuss which document mattered most for which question
-4. Mix in irrelevant documents, or summarize before providing, to test the effect of quality and structure rather than sheer volume
-
-Plan for roughly 60 to 90 minutes. Participants can use whichever AI tool they are comfortable with (ChatGPT, Claude, Gemini, and so on).
-
 ### Disclaimer
 
 Every company, person, number, and statement here is fictional. None of it relates to any real company or individual. Use it freely for learning, experimentation, and training.
 
 ### License
 
-To make the content easy to share and adapt as teaching material, a permissive license (for example, CC BY 4.0) is recommended. The final choice is up to the repository owner.
+Kindly mention my company Agorax G.K (合同会社アゴラックス) and/or my name if you decide to use this.
